@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Tahoma;
+}
+#hero {
+  width: 50%;
+  float: left;
+  height: 100vh;
+}
+form {
+  width: 50%;
+  float: right;
+}
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  display: block;
+  position: absolute;
+  color: white;
+  padding: 100px;
+  margin-top: 5%;
+  line-height: 4rem;
+}
+.overlay::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  right: 50%;
+  bottom: 0px;
+  top: 0px;
+  opacity: 0.8;
+  background: rgb(125, 252, 167);
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 100px;
+  margin-top: 13%;
+}
+
+input {
+  padding: 10px;
+}
+h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: lighter;
+}
+p {
+  float: right;
+  padding-right: 5px;
+}
+
+.submit {
+  background-color: rgb(125, 252, 167);
+  width: 100%;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.forgot{
+color: rgb(125, 252, 167);
+}
